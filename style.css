@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url('./fundo.jpg');
+    background-size: cover;
+    margin: 0;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo {
+    color: white;
+}
+
+.quadrado {
+    height: 500px;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.419);
+    padding: 15px;
+}
+
+.tabuleiro .col-4 {
+    background-color: white;
+    height: 100px;
+    border: 2px solid rgb(36, 30, 102);
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(36, 30, 102)x;
+}
+
+.tabuleiro .col-4.selecionado {
+    background-color: rgb(243, 219, 45);
+}
+
+.informativo {
+    color: white;
+}

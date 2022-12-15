@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da velha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="conteudo">
+        <div class="quadrado text-center">
+            <h1 class="titulo"> Jogo da Velha</h1>
+            <p class="titulo">Clique em um dos quadrados e aperte a tecla X ou O</p>
+            <br>
+            <div class="tabuleiro container" id="tabuleiro">
+                <div class="row">
+                    <div class="col-4" id="0-0" tabindex="1"></div>
+                    <div class="col-4" id="0-1" tabindex="1"></div>
+                    <div class="col-4" id="0-2" tabindex="1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4" id="1-0" tabindex="1"></div>
+                    <div class="col-4" id="1-1" tabindex="1"></div>
+                    <div class="col-4" id="1-2" tabindex="1"></div>
+                </div>
+                <div class="row">
+                    <div class="col-4" id="2-0" tabindex="1"></div>
+                    <div class="col-4" id="2-1" tabindex="1"></div>
+                    <div class="col-4" id="2-2" tabindex="1"></div>
+                </div>
+            </div>
+            <span class="informativo">
+                Casa selecionada:
+                <span id="posicao"> </span>
+            </span>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
